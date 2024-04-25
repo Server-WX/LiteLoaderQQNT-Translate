@@ -2,7 +2,7 @@ name: 'Build and upload release'
 on:
   workflow_dispatch:
     tags:
-      - '*'
+      - '1.0'
 
 jobs:
   build:
