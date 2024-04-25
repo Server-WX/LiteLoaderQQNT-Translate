@@ -1,6 +1,6 @@
 name: 'Build and upload release'
 on:
-  push:
+  workflow_dispatch:
     tags:
       - '*'
 
